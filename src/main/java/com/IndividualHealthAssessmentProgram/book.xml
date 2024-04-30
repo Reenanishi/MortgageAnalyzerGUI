@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<HealthReport>
+    <BloodPressure>22</BloodPressure>
+    <BMI>22</BMI>
+    <CholesterolLDL>22</CholesterolLDL>
+    <CholesterolHDL>22</CholesterolHDL>
+    <BloodGlucoseHemoglobin>22</BloodGlucoseHemoglobin>
+    <Triglycerides>22</Triglycerides>
+</HealthReport>

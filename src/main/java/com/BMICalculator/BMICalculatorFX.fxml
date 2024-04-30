@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.BMICalculator.BMICalculatorController">
+   <children>
+      <Label layoutX="80.0" layoutY="121.0" prefHeight="33.0" prefWidth="144.0" text="Weight">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="weightField" layoutX="261.0" layoutY="124.0" prefHeight="26.0" prefWidth="183.0" />
+      <TextField fx:id="heightField" layoutX="261.0" layoutY="178.0" prefHeight="26.0" prefWidth="183.0" />
+      <Label layoutX="74.0" layoutY="175.0" prefHeight="33.0" prefWidth="144.0" text="Height">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="74.0" layoutY="20.0" prefHeight="45.0" prefWidth="389.0" text="BMI Calculator">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="BMIMessageLabel" layoutX="20.0" layoutY="227.0" prefHeight="33.0" prefWidth="560.0" />
+      <Button fx:id="calculateBMIButton" layoutX="182.0" layoutY="288.0" mnemonicParsing="false" onAction="#calculateBMIButtonAction" prefHeight="26.0" prefWidth="173.0" text="CalculateBMI" textFill="#65c9c3">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>

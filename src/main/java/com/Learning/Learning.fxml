@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink; -fx-background-image: minion;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Learning.ControllerLearning">
+   <children>
+      <TextField fx:id="fieldy" prefHeight="101.0" prefWidth="600.0" promptText="Say" text=" Hello" />
+      <Label fx:id="labelx" prefHeight="72.0" prefWidth="612.0" text="Name" textFill="#4830c2">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
+      <Button fx:id="buttonz" mnemonicParsing="false" onAction="#buttonzClick" prefHeight="26.0" prefWidth="262.0" text="Button">
+         <VBox.margin>
+            <Insets left="250.0" />
+         </VBox.margin>
+      </Button>
+      <ImageView fx:id="imageViewx" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <VBox.margin>
+            <Insets left="200.0" right="50.0" top="10.0" />
+         </VBox.margin>
+      </ImageView>
+   </children>
+</VBox>

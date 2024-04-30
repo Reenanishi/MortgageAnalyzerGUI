@@ -1,0 +1,10 @@
+Washing Machine
+Microwave
+Coffee maker
+Crock pot
+Rice cooker
+Pressure cooker
+Blender
+Toaster
+Water purifier
+Vacuum Cleaner

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.GradeIO.GradeIOController">
+   <children>
+      <Label fx:id="operationLabel" layoutX="53.0" layoutY="259.0" prefHeight="33.0" prefWidth="445.0" />
+      <Button fx:id="readGradeFileButton" layoutX="53.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleReadGrades" prefHeight="33.0" prefWidth="201.0" text="Read Grade File" />
+      <Button fx:id="calculateGPAButton" layoutX="56.0" layoutY="112.0" mnemonicParsing="false" onAction="#handleCalcGPA" prefHeight="39.0" prefWidth="195.0" text="Calculate GPA" />
+      <ComboBox fx:id="comboBoxField" layoutX="300.0" layoutY="112.0" prefHeight="33.0" prefWidth="260.0" />
+      <TextField fx:id="readFileField" layoutX="289.0" layoutY="50.0" prefHeight="33.0" prefWidth="278.0" promptText="Filename" />
+      <Button fx:id="okButton" layoutX="435.0" layoutY="334.0" mnemonicParsing="false" onAction="#okButtonAction" prefHeight="29.0" prefWidth="133.0" text="OK" textFill="#65c9c3">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="56.0" layoutY="184.0" prefHeight="33.0" prefWidth="104.0" text=" GPA is : -" />
+      <Button fx:id="minimizeButton" layoutX="284.0" layoutY="334.0" mnemonicParsing="false" onAction="#minimizeButtonAction" prefHeight="29.0" prefWidth="133.0" text="Minimize" textFill="#65c9c3">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="GPALabel" layoutX="185.0" layoutY="184.0" prefHeight="33.0" prefWidth="104.0" />
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>
